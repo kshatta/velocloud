@@ -21,8 +21,8 @@ json_object = json.loads(data)
 
 #print("Type:", type(json_object))
 
-#The following line will print the object with ID 4
-print(json_object[4])
+#The following line will print the object with ID 3
+print(json.dumps(json_object[3], indent=4))
 
 #The previous code will print the whole dictionary object, if we want just the value for the key id we can type the following 
-print(json_object[4]['id'])
+print(json_object[3]['id'])
